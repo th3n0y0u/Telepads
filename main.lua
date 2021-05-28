@@ -1,13 +1,13 @@
 TelepadA = script.Parent.TelepadA
 
-local red  =BrickColor.Red()
-local green =BrickColor.Green()
-local gray =BrickColor.Gray()
+local red  = BrickColor.Red()
+local green = BrickColor.Green()
+local gray = BrickColor.Gray()
 local white = BrickColor.White()
-local blue =BrickColor.Blue()
-local black =BrickColor.Black()
-local yellow =BrickColor.Yellow()
-local darkgray =BrickColor.DarkGray()
+local blue = BrickColor.Blue()
+local black = BrickColor.Black()
+local yellow = BrickColor.Yellow()
+local darkgray = BrickColor.DarkGray()
 ----------------------------------------------------------------------------------------
 
 TelepadA.Anchored = true
@@ -43,21 +43,21 @@ TelepadA.Touched:connect(function(hit)
 	
 	   print("The Color is Changing!")
 	
-	   TelepadA.BrickColor=red
+	   TelepadA.BrickColor = red
 	   wait(cool)
-	   TelepadA.BrickColor=green
+	   TelepadA.BrickColor = green
 	   wait(cool)
-	   TelepadA.BrickColor=gray
+	   TelepadA.BrickColor = gray
 	   wait(cool)
-	   TelepadA.BrickColor=white
+	   TelepadA.BrickColor = white
 	   wait(cool)
-	   TelepadA.BrickColor=blue
+	   TelepadA.BrickColor = blue
        wait(cool)
-       TelepadA.BrickColor=black
+       TelepadA.BrickColor = black
        wait(cool)
-       TelepadA.BrickColor=yellow
+       TelepadA.BrickColor = yellow
        wait(cool)
-       TelepadA.BrickColor=darkgray
+       TelepadA.BrickColor = darkgray
        wait(cool)
     
        TelepadA.Material = 'Plastic'
